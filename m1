@@ -1,0 +1,6 @@
+import nltk
+nltk.download('punkt')
+text="hello, i'm here for create or learn about project and try to create some text processing"
+from nltk.corpus import stopwords
+stop_words=stopwords.words('english')
+print(stop_words)
